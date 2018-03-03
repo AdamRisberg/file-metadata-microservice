@@ -2,9 +2,9 @@
   "name": "file-metadata-microservice",
   "version": "1.0.0",
   "description": "Provides information about user uploaded files",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/myniztan/file-metadata-microservice/issues"
   },
-  "homepage": "https://github.com/myniztan/file-metadata-microservice#readme"
+  "homepage": "https://github.com/myniztan/file-metadata-microservice#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "multer": "^1.3.0"
+  }
 }
