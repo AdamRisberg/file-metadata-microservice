@@ -1,0 +1,19 @@
+{
+  "name": "file-metadata-microservice",
+  "version": "1.0.0",
+  "description": "Provides information about user uploaded files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myniztan/file-metadata-microservice.git"
+  },
+  "author": "Adam Risberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myniztan/file-metadata-microservice/issues"
+  },
+  "homepage": "https://github.com/myniztan/file-metadata-microservice#readme"
+}
